@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ホスト情報</value>
+    </caseValues>
+    <fields>
+        <label><!-- FQDN --></label>
+        <name>Fqdn__c</name>
+    </fields>
+    <fields>
+        <label><!-- IP Address --></label>
+        <name>IpAddress__c</name>
+    </fields>
+    <fields>
+        <label><!-- MAC Address --></label>
+        <name>MACAddress__c</name>
+    </fields>
+    <fields>
+        <label><!-- NetBios --></label>
+        <name>NetBios__c</name>
+    </fields>
+    <fields>
+        <label><!-- OS --></label>
+        <name>OS__c</name>
+    </fields>
+    <fields>
+        <label><!-- System Type --></label>
+        <name>SystemType__c</name>
+    </fields>
+</CustomObjectTranslation>

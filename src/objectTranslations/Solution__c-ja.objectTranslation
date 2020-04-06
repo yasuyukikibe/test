@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>影響確認・対策</value>
+    </caseValues>
+    <fields>
+        <label><!-- 状況１ --></label>
+        <name>Condition1__c</name>
+    </fields>
+    <fields>
+        <label><!-- 状況２ --></label>
+        <name>Condition2__c</name>
+    </fields>
+    <fields>
+        <label><!-- 状況３ --></label>
+        <name>Condition3__c</name>
+    </fields>
+    <fields>
+        <label><!-- 評価ステータス --></label>
+        <name>EvaluationStatus__c</name>
+        <picklistValues>
+            <masterLabel>対応不要</masterLabel>
+            <translation><!-- 対応不要 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>要対応</masterLabel>
+            <translation><!-- 要対応 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 連絡事項 --></label>
+        <name>Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- 案件No. --></label>
+        <name>No__c</name>
+    </fields>
+    <fields>
+        <label><!-- リリース日 --></label>
+        <name>ReleaseDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- 対応状況 --></label>
+        <name>ResponseStatus__c</name>
+        <picklistValues>
+            <masterLabel>クローズ</masterLabel>
+            <translation><!-- クローズ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>リリース完了</masterLabel>
+            <translation><!-- リリース完了 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>対応中</masterLabel>
+            <translation><!-- 対応中 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>新規</masterLabel>
+            <translation><!-- 新規 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 脆弱性情報 --></label>
+        <name>Vulnerability__c</name>
+        <relationshipLabel><!-- 影響確認・対策 --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

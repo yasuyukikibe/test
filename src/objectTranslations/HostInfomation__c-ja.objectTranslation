@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ホスト情報</value>
+    </caseValues>
+    <fields>
+        <help><!-- 調査対象サーバのFully Qualified Domain Name。
+（ドメイン名＋ホスト名） --></help>
+        <label><!-- FQDN --></label>
+        <name>FQDN__c</name>
+    </fields>
+    <fields>
+        <help><!-- 調査対象サーバのIP --></help>
+        <label><!-- IP Address --></label>
+        <name>IP_Address__c</name>
+    </fields>
+    <fields>
+        <help><!-- 調査対象サーバのMACアドレス --></help>
+        <label><!-- MAC Address --></label>
+        <name>MAC_Address__c</name>
+    </fields>
+    <fields>
+        <help><!-- 調査対象サーバのNetBios名。 --></help>
+        <label><!-- NetBios --></label>
+        <name>NetBios__c</name>
+    </fields>
+    <fields>
+        <help><!-- 調査対象サーバのOS名 --></help>
+        <label><!-- OS --></label>
+        <name>OS__c</name>
+    </fields>
+    <fields>
+        <help><!-- 対象サーバの利用目的の設定値 --></help>
+        <label><!-- System Type --></label>
+        <name>System_Type__c</name>
+    </fields>
+</CustomObjectTranslation>
